@@ -61,8 +61,8 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
-		<PackageReference Condition="'$(TargetFramework)' != 'net11.0'" Include="Avalonia.Controls.Maui" Version="11.0.0-cibuild0000683-alpha" />
-		<PackageReference Condition="'$(TargetFramework)' == 'net11.0'" Include="Avalonia.Controls.Maui.Desktop" Version="11.0.0-cibuild0000683-alpha" />
+		<PackageReference Condition="'$(TargetFramework)' != 'net11.0'" Include="Avalonia.Controls.Maui" Version="11.0.0-preview.2.26075.1512" />
+		<PackageReference Condition="'$(TargetFramework)' == 'net11.0'" Include="Avalonia.Controls.Maui.Desktop" Version="11.0.0-preview.2.26075.1512" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="11.0.0-preview.2.*" />
 	</ItemGroup>
 
